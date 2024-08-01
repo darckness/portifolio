@@ -3,19 +3,23 @@ import './globals.css';
 
 export default function Home() {
   return (
-   <div className="bg-gray-900 ">
-    <div className="bg-gray-700 w-1/2 h-screen">
-      <h1 className="flex absolute top-56 left-1/4 -translate-x-52 text-white font-Bungee text-8xl">Olá</h1>
-      <h1 className="flex absolute top-96 left-1/4 -translate-x-52 text-yellow-500 font-Anton text-5xl transition-transform-color duration-1000 hover:text-white">Me chamo João Lopes</h1>
-      <p className="flex absolute  top-3/4 left-1/4 -translate-x-52 -translate-y-40 font-Anton text-3xl leading-normal text-white transition-transform-color duration-1000 hover:text-yellow-500">
-      Seja bem-vindo!<br />
-      Dê uma olhada nos meus projetos<br />
-      e descubra como posso contribuir<br />
-      para seu próximo desafio.
-      </p>
-    <div className="rounded-full h-2/4 w-10 bg-gray-800 absolute top-1/4 left-1/2 transform -translate-x-1/2 transition-transform-color border duration-1000 hover:scale-150 hover:bg-gray-400 hover:w-16">
+    <div className="bg-gray-900 min-h-screen flex">
+      <div className="bg-gray-700 w-full md:w-1/2 flex flex-col justify-center items-center p-5 relative">
+        <h1 className="text-white font-Bungee text-6xl md:text-8xl mb-8">
+          Olá
+        </h1>
+        <h1 className="text-yellow-500 font-Anton text-3xl md:text-5xl mb-8 transition-transform-color duration-1000 hover:text-white">
+          Me chamo João Lopes
+        </h1>
+        <p className="font-Anton text-lg md:text-3xl leading-normal text-white transition-transform-color duration-1000 hover:text-yellow-500 text-center mb-8">
+          Seja bem-vindo!<br />
+          Dê uma olhada nos meus projetos<br />
+          e descubra como posso contribuir<br />
+          para seu próximo desafio.
+        </p>
+      </div>
+      <div className="bg-gray-900 w-0 md:w-1/2 relative flex items-center justify-center"></div>
+      <div className="rounded-full h-1/4 w-10 bg-gray-800 absolute top-1/2 left-0 transform -translate-y-1/2 duration-1000 hover:scale-100 hover:w-14 hover:h-2/4 hover md:transform transition-transform-color border md:duration-1000 md:hover:scale-150 hover:bg-gray-400 md:hover:w-16 md:h-2/4 md:-translate-x-1/2 md:left-2/4"></div>
     </div>
-    </div>
-   </div>
   );
 }
