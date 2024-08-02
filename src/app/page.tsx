@@ -19,7 +19,7 @@ export default function Home() {
         </p>
       </div>
       <div className="bg-gray-900 w-0 md:w-1/2 relative flex items-center justify-center"></div>
-      <div className="rounded-full h-10 w-20 bg-gray-800 absolute top-3/4 left-1/2 transform -translate-y-1/4 -translate-x-1/2 duration-1000 hover:scale-150 hover:w-56 md:w-20 md:-translate-y-1/2 md:top-1/2 md:transform transition-transform-color border md:duration-1000 md:hover:scale-150 hover:bg-gray-400 md:hover:w-16 md:h-2/4 md:-translate-x-1/2 md:left-2/4"></div>
+      <div className="rounded-full h-10 w-10 bg-gray-800 absolute top-3/4 left-1/2 transform -translate-y-1/4 -translate-x-1/2 duration-1000 hover:scale-150 hover:w-56 md:w-20 md:-translate-y-1/2 md:top-1/2 md:transform transition-transform-color border md:duration-1000 md:hover:scale-150 hover:bg-gray-400 md:hover:w-16 md:h-2/4 md:-translate-x-1/2 md:left-2/4"></div>
     </div>
   );
 }
